@@ -7,13 +7,25 @@
    
 
 }
-.para{
-    font-size: 1px;
+
+.bg-style {
+    background-color: #F8F6F4;
+    
 }
 
-.fondo{
-    background-color: #BBB6B6;
+.tCarta{
+    font-size: medium;
 }
+.pCarta{
+    color: dark;
+    font-size: xx-small;
+    opacity: 0.5;
+}
+.cCarta{
+    color: warning;
+}
+
+
 .tituloPlato{
     color: white;
     text-align: center;
@@ -21,6 +33,7 @@
     font-size: 2.0em;
     font-weight: bold;  
 }
+
 .texto{
     color: map-get($colors,  midnight_blue);    
 }
@@ -66,28 +79,17 @@
         top: 52%;
         width: 100%;
         color: #fff;
+        
       }
     
     }
-.parrafo{
-    color: #9E1B1B;
-    font-size: x-small;
-    line-height: 2px;
-   
-}
-
-.ti{
-    color: black;
-    text-align: left;
-    font-family: Arial;
-    font-size: medium;
-}
 
 .espacio{
     line-height: 2px;
 }
-.opaci{
 
-    opacity: 0.5;
+.posicion{
+    position: right;
 }
+
 
