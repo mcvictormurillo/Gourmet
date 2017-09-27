@@ -1,14 +1,46 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
+  <ion-navbar color="danger">
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    <ion-title class="titulo">
+      ¿Ya sabes qué ordenar?
     </ion-title>
   </ion-navbar>
 </ion-header>
+<!--
+<ion-content padding>  
+  <img src="/assets/icon/parrilla.jpg" (click)="goToMenu(1)">
+  <img src="/assets/icon/bisteck2.jpg" (click)="goToMenu(2)">
+  <img src="/assets/icon/pasta.jpg" (click)="goToMenu(3)">
+  <img src="/assets/icon/mariscos.jpg" (click)="goToMenu(4)">
+  </ion-content>
+-->
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
-</ion-content>
+<ion-content class="card-background-page">
+  
+    <ion-card>
+      <img src="/assets/icon/parrilla.jpg" (click)="goToMenu(1)">
+      <div class="card-title">Parilla</div>
+      <div class="card-subtitle">41 Listings</div>
+    </ion-card>
+  
+    <ion-card>
+      <img src="/assets/icon/bisteck2.jpg" (click)="goToMenu(2)">
+      <div class="card-title">Bisteck</div>
+      <div class="card-subtitle">64 Listings</div>
+    </ion-card>
+  
+    <ion-card>
+      <img src="/assets/icon/pasta.jpg" (click)="goToMenu(3)">
+      <div class="card-title">Pasta</div>
+      <div class="card-subtitle">72 Listings</div>
+    </ion-card>
+  
+    <ion-card>
+      <img src="/assets/icon/mariscos.jpg" (click)="goToMenu(4)">
+      <div class="card-title">Pescados y Mariscos</div>
+      <div class="card-subtitle">28 Listings</div>
+    </ion-card>
+  
+  </ion-content>
