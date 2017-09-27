@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 import { CartaPage } from '../carta/carta';
+import { AcercaPage } from '../acerca/acerca';
 
 @Component({
   selector: 'page-home',
@@ -15,6 +16,10 @@ export class HomePage {
 
   goToMenu(menuID){
     this.navCtrl.push(CartaPage,{menuID:menuID});
+
+  }
+  goToAcerca(){
+    this.navCtrl.push( AcercaPage );
 
   }
 
