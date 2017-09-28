@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { Home2Page } from '../pages/home2/home2';
 import { CartaPage } from '../pages/carta/carta';
 import { AcercaPage } from '../pages/acerca/acerca';
+import { RecomendadosPage } from '../pages/recomendados/recomendados';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AcercaPage } from '../pages/acerca/acerca';
     HomePage,
     Home2Page,
     CartaPage,
-    AcercaPage
+    AcercaPage,
+    RecomendadosPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { AcercaPage } from '../pages/acerca/acerca';
     HomePage,
     Home2Page,
     CartaPage,
-    AcercaPage
+    AcercaPage,
+    RecomendadosPage
   ],
   providers: [
     StatusBar,

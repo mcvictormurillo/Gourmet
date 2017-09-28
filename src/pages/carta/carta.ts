@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { RecomendadosPage } from '../recomendados/recomendados';
 
 /**
  * Generated class for the CartaPage page.
@@ -36,5 +37,8 @@ export class CartaPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad CartaPage');
   }
-
+  
+  goToDetalles(){
+    this.navCtrl.push( RecomendadosPage);
+  }
 }
